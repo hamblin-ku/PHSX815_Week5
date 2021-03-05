@@ -5,4 +5,5 @@
 
 ##Usage
 The scripts can be ran as:
+
 -`python python/rejection_sampling.py --Niter [# iterations]` 
