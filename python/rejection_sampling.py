@@ -1,6 +1,6 @@
 # File:     rejection_sampling.py
 # Author:   Kurt Hamblin
-# Description:  Analyze outputs from the monopoly simulation in monopoly_experiment.py
+# Description:  Use rejection sampling to sample a target distribution
 
 import numpy as np
 import matplotlib as mpl
