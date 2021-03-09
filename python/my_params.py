@@ -7,7 +7,7 @@ def params():
         'savefig.dpi': 150,  			#to adjust notebook inline plot size
         'text.usetex': True,            	#Use LaTeX to render. Allows you to use LaTeX for the figure text (axes, labels, etc.), but increases render time.I usually disable LaTeX for making plots quickly in Jupyter, as otherwise it takes rather long to display. You must have LaTeX on your computer for this to work!
         'font.family': 'serif',			#Options: serif, sans-serif, cursive, fantasy, monospace 
-        'figure.autolayout': True,      	#This applies 'tight_layout' to the plot to make the plot fit the fig, useful when saving plots
+        'figure.autolayout': False,      	#This applies 'tight_layout' to the plot to make the plot fit the fig, useful when saving plots
     
         ## ********************************************************************************
         ## * Axes Settings
