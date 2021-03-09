@@ -5,10 +5,13 @@
 
 ## Homework 6: Numerical Integration
 I implemetned trapezoidal integration and gaussian quadrature integration functions in my `integration.py`. For my test function, I chose
-```math
-f(x) = \frac{1}{1+x^2}
 ```
-the analytic solution for this is known to be $`arctan(x)`$, so comparison to the "true" solution is easy. I evalauted on the closed interval [0,10] using different numbers of sub-intervals. I found that the integrations quickly convered (likely due to the overall simple shape of the function), so in `Homework6.png` I chose to only show sub-intervals up to 30. 
+f(x) = 1 / (1 + x^2)
+```
+the analytic solution for this is known to be arctan(x), so comparison to the "true" solution is easy. I evalauted on the closed interval [0,10] using different numbers of sub-intervals. I found that the integrations quickly convered (likely due to the overall simple shape of the function), so in `Homework6.png` I chose to only show sub-intervals up to 30.
+
+It is readily apparent that the gaussian quadrature integration converges much quicker to the analytic solution, needing only about ~10 sub-intervals to converge well.
+
 ## Usage
 The scripts can be ran as:
 
